@@ -1,0 +1,36 @@
+"set theme
+set t_Co=256
+set background=dark
+
+"set indent linecnt tab backspace
+set wrap
+set cindent
+set mouse=a
+set nu
+set tabstop=4
+set shiftwidth=4
+set ruler
+set cursorline
+set backspace=indent,eol,start   
+set nocompatible
+filetype indent on
+
+syntax on
+set showmatch
+"encoding
+set encoding=utf-8
+hi CursorLine cterm=none ctermbg=darkgreen ctermfg=White
+"auto complete
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {<CR>}<LEFT><Esc>O
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT
+hi LineNr cterm=bold ctermfg=grey ctermbg=NONE
+hi CursorLineNr cterm=bold ctermfg=red ctermbg=NONE
+hi Number ctermfg =82
+hi String ctermfg =red
+hi Type ctermfg =99
+
+""
+"End auto-complete
