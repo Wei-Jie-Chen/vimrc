@@ -25,7 +25,7 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {<CR>}<LEFT><Esc>O
 inoremap " ""<LEFT>
-inoremap ' ''<LEFT
+inoremap ' ''<LEFT>
 hi LineNr cterm=bold ctermfg=grey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=red ctermbg=NONE
 hi Number ctermfg =82
